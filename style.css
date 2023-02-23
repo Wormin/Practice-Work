@@ -1,0 +1,442 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+img {
+    vertical-align: text-top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100%;
+    line-height: 1;
+    background-color: rgb(34, 36, 49);
+}
+body {
+}
+.header__container {
+    display: flex;
+    width: 1610px;
+    height: 100px;
+    justify-content: space-between;
+}
+.header__logo {
+    display: flex;
+    color: #fff;
+    height: 40px;
+    width: 150px;
+    align-items: center;
+    text-align: center;
+    margin: 23px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+.header__logo-text {
+    font-size: 32px;
+}
+.header__logo-text span {
+    color: rgb(255, 102, 0);
+}
+.header__menu {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 23px;
+}
+.menu {
+    margin-right: 370px;
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+    font-size: 16px;
+    color: #fff;
+    padding: 10px;
+    transition: 0.3s ease;
+}
+.header__btn {
+    position: absolute;
+    right: 180px;
+}
+.button {
+    color: rgb(255, 102, 0);
+    border: 1px solid rgb(80, 80, 80);
+    background-color: inherit;
+    padding: 15px;
+    transition: 0.3s ease;
+}
+.button:hover {
+    color: #fff;
+}
+.menu__link:hover {
+    color: rgb(255, 102, 0);
+}
+.main {
+}
+.main-content_block {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 165px;
+    width: 300px;
+    height: 300px;
+}
+.main-content {
+    color: #fff;
+}
+.main-text_1 {
+    font-size: 30px;
+}
+.main-text_2 {
+    margin-top: 15px;
+    font-size: 120px;
+    white-space: nowrap;
+    width: 570px;
+    height: 130px;
+    font-size: 122px;
+    background: -webkit-linear-gradient(red,rgb(255, 145, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+.main-text_3 {
+    margin-top: 15px;
+    font-size: 120px;
+    white-space: nowrap;
+    background: -webkit-linear-gradient(red,rgb(255, 145, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 800px;
+}
+
+.main-text_4 {
+    margin-top: 33px;
+    font-size: 50px;
+    white-space: nowrap;
+}
+.btn-main {
+    position: absolute;
+    margin-top: 80px;
+}
+.button-main {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    background-color: rgb(83, 83, 83);
+    font-size: 15px;
+    letter-spacing: 1.3px;
+    transition: 0.5s ease-in-out;
+    padding: 20px;
+}
+.button-main:hover {
+    background-color: rgb(116, 115, 115);
+}
+.main-text_speak {
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    font-size: 66px;
+    margin-top: -600px;
+    margin-left: 80px;
+}
+.main-block_persons {
+    position: absolute;
+    justify-content: center;
+    margin-top: 300px;
+    width: 1300px;
+    height: 2000px;
+    border: 1px;
+    margin-left: -100px;
+}
+.main-text_doubble {
+    font-weight: 100;
+    color: rgb(204, 204, 204);
+    position: absolute;
+    margin-left: 520px;
+    margin-top: -530px;
+    font-size: 25px;
+    width: 400px;
+    height: 400px;
+}
+.main-person_name {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 620px;
+    color: #fff;
+    font-size: 40px;
+}
+.image-main {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 100px;
+    width: 550px;
+    height: 550px;
+}
+.main-first_person {
+    margin-top: 30px;
+    width: 1300px;
+    height: 900px;
+    border: 1px;
+}
+.main-two_person {
+    margin-top: -550px;
+    width: 1300px;
+    height: 900px;
+    border: 1px;
+}
+.main-person_info-1 {
+    color: rgb(255, 102, 0);
+    margin-top: 570px;
+    margin-left: 730px;
+    font-size: 20px;
+}
+.main-person_info-3 {
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 730px;
+    font-size: 20px;
+}
+.main-person_info-2 {
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 730px;
+    font-size: 20px;
+}
+.fa-facebook {
+    position: absolute;
+    color: rgb(255, 102, 0);
+    margin-top: -17px;
+    margin-left: 850px;
+    font-size: 17px;  
+}
+.fa-twitter {
+    position: absolute;
+    color: rgb(255, 102, 0);
+    margin-top: -17px;
+    margin-left: 880px;
+    font-size: 17px;  
+}
+.fa-reddit {
+    position: absolute;
+    color: rgb(255, 102, 0);
+    margin-top: -17px;
+    margin-left: 910px;
+    font-size: 17px;  
+}
+.main-person_name_1_2 {
+    color: #fff;
+    margin-top: 320px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-size: 40px;
+}
+.main-person_info-2_2 {
+    color: rgb(255, 102, 0);
+    margin-top: 40px;
+    margin-left: 120px;
+    font-size: 20px;
+}
+.main-person_info-3_2 {
+    width: 300px;
+    height: 300px;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size: 20px;
+}
+.main-person-info-4_2 {
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 120px;
+}
+.imagesav {
+    position: absolute;
+    margin-top: -105px;
+    margin-left: -630px;
+}
+.image-person_2 {
+    position: absolute;
+    margin-top: -550px;
+    margin-left: 550px;
+    width: 550px;
+    height: 550px;
+}
+.image-main_3 {
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 100px;
+    width: 550px;
+    height: 550px;
+}
+.main-person_name_3 {
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 620px;
+    color: #fff;
+    font-size: 40px;
+}
+.main-person_info-1_3 {
+    color: rgb(255, 102, 0);
+    margin-top: 270px;
+    margin-left: 730px;
+    font-size: 20px;
+}
+.main-person_info-2_3 {
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 730px;
+    font-size: 20px;
+}
+.main-person_info-3_3 {
+    color: #fff;
+    margin-top: 0px;
+    margin-left: 730px;
+    font-size: 20px;
+}
+.fa-brands {
+}
+.fa-facebook {
+}
+.fa-twitter {
+}
+.fa-reddit {
+}
+.Timer {
+    position: absolute;
+    margin-left: -0px;
+    width: 1300px;
+    height: 1000px;
+    margin-top: 400px;
+}
+.programs_and {
+    margin-top: 50px;
+}
+.line {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 180px;
+    width: 1000px;
+    border-top: 1px solid gray;
+}
+.text-programs {
+    position: absolute;
+    margin-left: 430px;
+    font-size: 25px;
+    width: 400px;
+    height: 400px;
+}
+.main-four_person {
+    margin-top: 420px;
+}
+.main-three_person {
+    margin-top: -420px;
+}
+.programs {
+    margin-left: 80px;
+    font-size: 45px;
+}
+.time-info1 {
+    font-size: 30px;
+    margin-left: 120px;
+    margin-top: 215px;
+}
+.time-info2 {
+    font-size: 30px;
+    margin-left: 400px;
+    margin-top: -30px;
+}
+.line2 {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 100px;
+    width: 1000px;
+    border-top: 1px solid gray;
+}
+.line3 {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 100px;
+    width: 1000px;
+    border-top: 1px solid gray;
+}
+.time-info3 {
+    font-size: 30px;
+    margin-left: 120px;
+    margin-top: 125px;
+}
+.time-info4 {
+    font-size: 30px;
+    margin-left: 400px;
+    margin-top: -30px;
+}
+.time-info_dob {
+    font-weight:100;
+    margin-top: 14px;
+    margin-left: 400px;
+    font-size: 24px;
+}
+.text-sponsor {
+    font-size: 45px;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+.Sponsors {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 80px;
+    width: 1150px;
+    height: 1000px;
+}
+.text-lorem {
+    margin-top: 50px;
+    margin-left: 350px;
+    width: 300px;
+    font-size: 25px;
+    height: 300px;
+}
+.sponsor-1 {
+    margin-top: -170px;
+    padding: ;
+}
+.button-sponsor {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    margin-left: 520px;
+    margin: 220px;
+    background-color: rgb(83, 83, 83);
+    font-size: 15px;
+    letter-spacing: 1.3px;
+    transition: 0.5s ease-in-out;
+    padding: 20px;
+}
+.btn-main-sponsor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -220px;
+}
+.button-sponsor:hover {
+    background-color: rgb(116, 115, 115);
+}
